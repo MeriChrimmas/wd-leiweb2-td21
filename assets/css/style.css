@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+a{
+    color: teal;
+    text-decoration: none;
+    
+}
+
+
+.header{
+    display: flex;
+    background-color:#817cff;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem .5rem;
+
+}
+
+
+.logo{
+    width:5rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.btn{
+    border: 1px #87f366 solid;
+    padding: 1rem;
+    border-radius: 50px;
+    background-color: #87f366;
+    .home{
+        width: 2rem;
+        justify-content: center;
+    }
+    .abt{
+        width: 2.1rem;
+        justify-content: center;
+    }
+    .exp{
+        width: 2.1rem;
+        justify-content: center;
+    }
+    .art{
+        width: 2.1rem;
+        justify-content: center;
+    }
+    .find{
+        width: 2.1rem;
+        justify-content: center;
+    }
+    &.active {
+        background-color: rgb(67, 97, 250);
+
+
+        & p{
+            color: black;
+        }
+    }
+}
