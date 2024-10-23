@@ -84,3 +84,38 @@ body{
     }
 
 }
+.namecard{
+    display: flex;
+    align-items: center;
+    .name{
+        position: absolute;
+        width: 35rem;
+        z-index: -1;
+        transform: translate(45rem, 18rem);
+        display: flow-root;
+    }
+
+}
+
+.content-container1{
+        padding: 1rem;
+        display: center;
+        align-items: center;
+        border: 6px #60f1b6 solid;
+        border-radius: 20px;;
+        background-color: #817cff;
+        padding: 1rem;
+        width: 70dvw;
+        margin: auto;
+        z-index: 1;
+        transform: translate(10rem, 40rem);
+        .octobowl{
+            padding: 1rem;
+            background-color: #231e5c;
+            border-radius: 20px;
+            width: 17rem;
+            .octo{
+                width: 15rem;
+            }
+        }
+}
