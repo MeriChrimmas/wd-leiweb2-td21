@@ -106,13 +106,71 @@ body{
         background-color: #817cff;
         padding: 1rem;
         width: 70dvw;
+        height: 50dvh;
         margin: auto;
         z-index: 1;
         transform: translate(10rem, 40rem);
+        .abt{
+            position: absolute;
+            display: flow-root;
+            transform: translate( 23rem, 0rem);
+            .star{
+                width: 2.5rem;
+            }
+            .starm{
+                width: 2.5rem;
+            }
+            h1{
+                text-decoration-line: underline;
+                text-align: center;
+                float: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #231e5c;
+            }
+
+        }
+        .abtm{
+            position: absolute;
+            display: flow-root;
+            transform: translate( 18rem, 4rem);
+            width: 46rem;
+            h2{
+                text-align: left;
+                float: center;
+                font-size: 1.3rem;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: #231e5c;
+            }
+        }
+        .educ{
+            position: absolute;
+            transform: translate( 26rem, 14rem);
+            h3{
+                text-decoration-line: underline;
+                font-size: 1.5rem;
+                text-align: center;
+                float: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #231e5c;
+            }
+        }
+        .schoo{
+            position: absolute;
+            transform: translate( 18rem, 16rem);
+            width: 46rem;
+            h4{
+                text-align: left;
+                float: center;
+                font-size: 1.3rem;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: #231e5c;
+            }
+        }
         .octobowl{
+            transform: translate( 0, 1rem);
             padding: 1rem;
             background-color: #231e5c;
-            border-radius: 20px;
+            border-radius: 60px;
             width: 17rem;
             .octo{
                 width: 15rem;
