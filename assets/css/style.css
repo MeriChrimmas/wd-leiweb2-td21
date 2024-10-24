@@ -297,3 +297,27 @@ body{
         color: #231e5c;
     }
 }
+
+.prof1{
+    padding: 1rem;
+    display: flex;
+    float: left;
+    align-items: center;
+    border: 10px #817cff solid;
+    border-radius: 50px;;
+    background-color: #87f366;
+    padding: 1rem;
+    width: 25dvw;
+    height: 13dvh;
+    margin: auto;
+    z-index: 1;
+    transform: translate( -6rem, 17rem);
+    h14{
+        float: center;
+        text-align: center;
+        text-decoration-line: underline;
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #231e5c;
+    }
+}
