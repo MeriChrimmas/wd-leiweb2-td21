@@ -301,18 +301,62 @@ body{
 .prof1{
     padding: 1rem;
     display: flex;
+    gap: 1rem;
     float: left;
     align-items: center;
     border: 10px #817cff solid;
     border-radius: 50px;;
     background-color: #87f366;
     padding: 1rem;
-    width: 25dvw;
-    height: 13dvh;
+    width: 29dvw;
+    height: 45dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( -6rem, 17rem);
+    transform: translate( -7rem, 17rem);
     h14{
+        transform: translate( 10rem, -7rem);
+        float: center;
+        text-align: center;
+        text-decoration-line: underline;
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #231e5c;
+    }
+    .acr{
+        width: 7rem;
+        justify-content: center;
+        transform: translate( -5rem, 0rem);
+    }
+    .ibis{
+        width: 7rem;
+        justify-content: center;
+        border-radius: 10px;
+        transform: translate( -4rem, 0rem);
+    }
+    .pro{
+        width: 7rem;
+        justify-content: center;
+        border-radius: 10px;
+        transform: translate( -3rem, 0rem);
+    }
+}
+.prof2  {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    float: left;
+    align-items: center;
+    border: 10px #817cff solid;
+    border-radius: 50px;;
+    background-color: #87f366;
+    padding: 1rem;
+    width: 29dvw;
+    height: 45dvh;
+    margin: auto;
+    z-index: 1;
+    transform: translate( -35rem, 37rem);
+    h15{
+        transform: translate( 10rem, -7rem);
         float: center;
         text-align: center;
         text-decoration-line: underline;
