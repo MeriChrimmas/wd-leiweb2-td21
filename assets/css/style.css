@@ -463,18 +463,19 @@ body{
     border-radius: 50px;;
     background-color: #231e5c;
     padding: 1rem;
-    width: 80dvw;
+    width: 57dvw;
     height: 40dvh;
     margin: auto;
     z-index: 1;
     transform: translate( 0rem, 39rem);
     .bi{
+        position: absolute;
         padding: 1rem;
         display: flex;
         gap: 1rem;
         float: left;
         align-items: left;
-        border: 1px #817cff solid;
+        border: 1px #231e5c solid;
         border-radius: 50px;;
         background-color: #231e5c;
         padding: 1rem;
@@ -482,9 +483,10 @@ body{
         height: 5dvh;
         margin: auto;
         z-index: 1;
-        transform: translate( -11rem, -7rem);
+        transform: translate( 1rem, -7rem);
         h19{
             p{
+            text-decoration-line: underline;
             display: flow-root;
             position: absolute;
             float: left;
@@ -496,12 +498,13 @@ body{
     }
  }
     .date{
+        position: absolute;
         padding: 1rem;
         display: flex;
         gap: 1rem;
         float: left;
         align-items: left;
-        border: 1px #817cff solid;
+        border: 1px #231e5c solid;
         border-radius: 50px;;
         background-color: #231e5c;
         padding: 1rem;
@@ -509,13 +512,224 @@ body{
         height: 0.5dvh;
         margin: auto;
         z-index: 1;
-        transform: translate( -49rem, -4.8rem);
+        transform: translate( 1rem, -4.8rem);
         h20{
             display: flow-root;
             position: absolute;
             float: left;
             text-align: left;
             font-size: o.8rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .binfo{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 15dvw;
+        height: 0.5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 1rem, -2rem);
+        h21{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: o.8rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .sold{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 13dvw;
+        height: 3dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 17.3rem, -7.2rem);
+        h22{
+            text-decoration-line: underline;
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: 1.1rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .soldate{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 13dvw;
+        height: 3dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 17.3rem, -5rem);
+        h23{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: o.8rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .solfo{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 15dvw;
+        height: 0.5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 17rem, -2rem);
+        h24{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: o.8rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .gsis{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 20dvw;
+        height: 0.5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 33rem, -7.2rem);
+        h25{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            text-decoration-line: underline;
+            font-size: 1.1rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .exhi{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 20dvw;
+        height: 0.5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 33rem, -2rem);
+        h26{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            text-decoration-line: underline;
+            font-size: 1.1rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .exhate{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 20dvw;
+        height: 0.5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 33rem, 0.3rem);
+        h27{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: 1rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+    .exfo{
+        position: absolute;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #231e5c solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 20dvw;
+        height: 0.5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( 33rem, 2.4rem);
+        h28{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: 0.8rem;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             color: white;
         }
