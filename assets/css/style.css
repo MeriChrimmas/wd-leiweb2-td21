@@ -426,5 +426,98 @@ body{
         transform: translate( -75rem, 102.9rem);
         display: flow-root;
     }
+}
 
+.expp{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    float: center;
+    align-items: center;
+    border: 7px #817cff solid;
+    border-radius: 50px;;
+    background-color: #231e5c;
+    padding: 1rem;
+    width: 29dvw;
+    height: 10dvh;
+    margin: auto;
+    z-index: 1;
+    transform: translate( 0rem, 38rem);
+    h18{
+        transform: translate( 7rem, 0rem);
+        text-align: center;
+        text-decoration-line: overline;
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+    }
+}
+
+.expm{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    float: center;
+    align-items: center;
+    border: 7px #817cff solid;
+    border-radius: 50px;;
+    background-color: #231e5c;
+    padding: 1rem;
+    width: 80dvw;
+    height: 40dvh;
+    margin: auto;
+    z-index: 1;
+    transform: translate( 0rem, 39rem);
+    .bi{
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #817cff solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 13dvw;
+        height: 5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( -11rem, -7rem);
+        h19{
+            p{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: 1.1rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
+ }
+    .date{
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        float: left;
+        align-items: left;
+        border: 1px #817cff solid;
+        border-radius: 50px;;
+        background-color: #231e5c;
+        padding: 1rem;
+        width: 11dvw;
+        height: 0.5dvh;
+        margin: auto;
+        z-index: 1;
+        transform: translate( -49rem, -4.8rem);
+        h20{
+            display: flow-root;
+            position: absolute;
+            float: left;
+            text-align: left;
+            font-size: o.8rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    }
 }
