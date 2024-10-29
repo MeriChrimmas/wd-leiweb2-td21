@@ -744,19 +744,24 @@ body{
     padding: 1rem;
     display: flex;
     gap: 1rem;
-    float: center;
     align-items: center;
-    border: 7px #817cff solid;
     border-radius: 50px;;
     padding: 1rem;
     width: 63dvw;
     height: 40dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( 17rem, 125rem);
+    transform: translate( 14rem, 125rem);
     .gt{
-        position: absolute;
         width: 20rem;
+        display: flex-start ;
     }
-
+    .law{
+        width: 20rem;
+        display: flex-start ;
+    }
+    .tea{
+        width: 20rem;
+        display: flex-start ;
+    }
 }
