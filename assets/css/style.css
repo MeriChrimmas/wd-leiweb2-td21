@@ -175,6 +175,7 @@ body{
 }
 
 .content-container2{
+    position: absolute;
     padding: 1rem;
     display: center;
     align-items: center;
@@ -186,7 +187,7 @@ body{
     height: 96dvh;
     margin: auto;
     z-index: 1;
-    transform: translate(15rem, 50rem);
+    transform: translate(50rem, 50rem);
     .skill{
         padding: 1rem;
         display: center;
@@ -272,6 +273,7 @@ body{
 }
 
 .content-container3{
+    position: absolute;
     padding: 1rem;
     display: flex;
     float: left;
@@ -284,7 +286,7 @@ body{
     height: 13dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( 16rem, 11rem);
+    transform: translate( 21rem, 52rem);
     h13{
         text-align: center;
         display: flex;
@@ -295,6 +297,7 @@ body{
 }
 
 .prof1{
+    position: absolute;
     padding: 1rem;
     display: flex;
     gap: 1rem;
@@ -308,7 +311,7 @@ body{
     height: 45dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( -7rem, 17rem);
+    transform: translate( 17rem, 58rem);
     h14{
         transform: translate( 10rem, -7rem);
         float: center;
@@ -356,6 +359,7 @@ body{
     }
 }
 .prof2  {
+    position: absolute;
     padding: 1rem;
     display: flex;
     gap: 1rem;
@@ -369,7 +373,7 @@ body{
     height: 45dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( -35rem, 37rem);
+    transform: translate( 17rem, 78rem);
     h16{
         display: flow-root;
         position: absolute;
@@ -413,13 +417,14 @@ body{
 }
 
 .backdrop2{
+    position: absolute;
     display: flex;
     align-items: center;
     .bottom{
         position: absolute;
-        width: 95rem;
+        width: 94.9rem;
         z-index: -1;
-        transform: translate( -75rem, 102.9rem);
+        transform: translate( 0rem, 145rem);
         display: flow-root;
     }
 }
@@ -439,7 +444,7 @@ body{
     height: 10dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( 34rem, 60rem);
+    transform: translate( 34rem, 102rem);
     h18{
         transform: translate( 7rem, 0rem);
         text-align: center;
@@ -465,7 +470,7 @@ body{
     height: 40dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( 20rem, 65rem);
+    transform: translate( 20rem, 107rem);
     .bi{
         position: absolute;
         padding: 1rem;
@@ -748,10 +753,10 @@ body{
     height: 40dvh;
     margin: auto;
     z-index: 1;
-    transform: translate( 17rem, 85rem);
+    transform: translate( 17rem, 125rem);
     .gt{
         position: absolute;
         width: 20rem;
     }
-    
+
 }
