@@ -61,3 +61,10 @@ nav{
 body{
     background: #231e5c;
 }
+
+h1{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 1rem;
+    text-align: center;
+}
